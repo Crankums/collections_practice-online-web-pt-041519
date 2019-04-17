@@ -45,6 +45,7 @@ def sum_array(array)
   array.sum
 end
 
+array = ["hand","feet", "knee", "table"]
 def add_s(array)
   keep = string[1]
   array.collect {|string| string + "s"}
