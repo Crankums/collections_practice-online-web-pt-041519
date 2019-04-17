@@ -48,7 +48,7 @@ end
 def add_s(array)
   keep = string[1]
 binding.pry
-  array.collect.{|string| string + "s"}
+  array.collect {|string| string + "s"}
 end
 
 array = ["hand","feet", "knee", "table"]
