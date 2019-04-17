@@ -50,3 +50,5 @@ def add_s(array)
 binding.pry
   array.collect.{|string| string + "s"}
 end
+
+array = ["hand","feet", "knee", "table"]
