@@ -1,3 +1,5 @@
+require 'pry'
+
 def sort_array_asc(array)
   array.sort do | a, b|
     a <=> b
@@ -44,5 +46,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.collect.each_with_index {|string, 1| string + "s"}
+  keep = string[1]
+binding.pry
+  array.collect.{|string| string + "s"}
 end
