@@ -48,5 +48,5 @@ end
 def add_s(array)
   keep = array[1]
   array.each_with_index.collect {|string, 1| string + "s"}
-  
+
 end
