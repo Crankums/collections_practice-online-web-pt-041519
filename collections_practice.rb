@@ -44,10 +44,5 @@ def sum_array(array)
 end
 
 def add_s(array)
-new_arr = []
-  array.each do |string|
-    new_str = string + "s"
-    new_arr << new_str
-  end
-  new_arr
+  array.collect {|string| string + "s"}
 end
