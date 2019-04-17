@@ -46,6 +46,6 @@ def sum_array(array)
 end
 
 def add_s(array)
-  keep = string[1]
+  keep = array[1]
   array.collect {|string| string + "s"}
 end
